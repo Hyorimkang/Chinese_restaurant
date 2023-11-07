@@ -1,0 +1,15 @@
+/*header*/
+header{
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+header .login{
+    float: right;
+    padding-right: 30px;
+    text-decoration-line:none;
+}
+header .logo{
+    text-decoration-line:none;
+}
+  

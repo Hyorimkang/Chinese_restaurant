@@ -1,16 +1,13 @@
 <?php
 $conn = mysqli_connect('localhost', 'test', '1111', 'test');
-$name = $_POST['name'];
+
 $id = $_POST['id'];
 $pw = $_POST['pw'];
-$gender = $_POST['gender'];
-$nikname = $_POST['nikname'];
-$email = $_POST['email'];
 
-$sql = "select * from where id = '$id'";
+$sql = "select id from where id='$id'";
 $result = mysqli_query($conn, $sql);
 
-if(!$result) {
+if($id!=$result) {
     $sql = "insert into user(name, id, pw, gender, nikname, email) values('$name','$id','$pw', '$gender', '$nikname', '$email')";
     $result = mysqli_query($conn, $sql);
 
