@@ -36,34 +36,3 @@ nav a:hover {
     background-color: #ddd; /* Light background color on hover */
     color: black;
 }
-
-
-.menu-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Adjust to space-between or space-evenly if needed */
-    padding: 20px;
-}
-
-.menu-item {
-    margin: 15px;
-    text-align: center;
-    flex: 0 1 calc(33.33% - 30px); /* 3 items in a row with some spacing */
-}
-
-.menu-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.name {
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-/* Additional styles for the price */
-[name="price"] {
-    color: #8d6e63; /* Darker brown */
-    font-weight: bold;
-}
