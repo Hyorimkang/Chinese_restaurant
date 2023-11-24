@@ -15,5 +15,24 @@
         <a class="review" href="review.html">REVIEW</a>
         <a class="reservation" href="reservation.html">RESERVATION</a>
     </nav>
+    <h1>예약하기</h1>
+    <form method="post" action="reservation.php">
+        예약 날짜
+        <input type="date" id="reservationDate" name="reservationDate" required><br>
+        음식 선택
+        <select id="food" name="food" required>
+            <option value="jajangmyeon">짜장면 6000</option>
+            <option value="jjambbong">짬뽕 7000</option>
+            <option value="tangsuyuk">탕수육 8000</option>
+            <option value="creamshrimp">크림새우 10000</option>
+            <option value="malaxiangguo">마라샹궈 15000</option>
+            <option value="pepper_japchae">고추잡채 20000</option>
+        </select><br>
+        수량
+        <button type="button" id="plus">+</button>
+        <button type="button" id="minus">-</button><br>
+        <button type="button" id="add">메뉴 추가</button><br>
+        <button type="submit" id="reservation">예약하기</button>
+    </form>
 </body>
 </html>

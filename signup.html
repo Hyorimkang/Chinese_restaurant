@@ -12,8 +12,10 @@
         아이디 <input type="text" name="id"><br>
         비밀번호 <input type="password" name="pw"><br>
         성별
-        <input type="radio" name="gender" value ="female">여
-        <input type="radio" name="gender" value ="male">남<br>
+        <select id="gender" name="gender" required>
+            <option value="male">남자</option>
+            <option value="female">여자</option>
+        </select><br>
         닉네임 <input type="text" name="nikname"><br>
         이메일 <input type="email" name="email"><br>
         <button type="submit">회원가입</button>

@@ -36,3 +36,68 @@ nav a:hover {
     background-color: #ddd; /* Light background color on hover */
     color: black;
 }
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select,
+#reservationDate{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#plus, #minus {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #c6c6c6;
+    float: right;
+}
+#plus:hover{
+    background-color: #ddd;
+}
+
+#minus:hover{
+    background-color: #ddd;
+}
+
+#add {
+    background-color: #5d4037;
+    width: 100%;
+}
+
+#add:hover {
+    background-color: #aa9270;
+}
+
+#reservation {
+    background-color: #5d4037;
+    width: 100%;
+}
+
+#reservation:hover {
+    background-color: #aa9270;
+}
